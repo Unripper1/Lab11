@@ -15,7 +15,7 @@ public class Test extends JFrame {
         add(b);
         final int[] k = {2};
         Random r=new Random();
-        int z=r.nextInt(6);
+        int z=r.nextInt(20);
         b.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
